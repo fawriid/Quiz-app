@@ -1,6 +1,6 @@
 let questionList = [
   {
-    question: "which year did JavaScript born?",
+    question: "Which year did JavaScript born?",
     a: 1993,
     b: 1995,
     c: 2000,
@@ -16,7 +16,7 @@ let questionList = [
     correct: "a",
   },
   {
-    question: "whta is 'HTML' stand for",
+    question: "What is 'HTML' stand for",
     a: "Hyper time market laps",
     b: "Hyper text markup language",
     c: "Hype tuning machine language",
@@ -24,7 +24,7 @@ let questionList = [
     correct: "b",
   },
   {
-    question: "which one is the most popular language?",
+    question: "Which one is the most popular language?",
     a: "Python",
     b: "Kotlin",
     c: "JS",
@@ -32,13 +32,37 @@ let questionList = [
     correct: "c",
   },
   {
-    question: "who is US president at 2021?",
+    question: "Who is US president at 2021?",
     a: "Pop",
     b: "Trump",
     c: "Ahmadi nejat",
     d: "Baiden",
     correct: "d",
   },
+  {
+    question: "Where is IRAN?",
+    a: "Europe",
+    b: "America",
+    c: "Asia",
+    d: "Africa",
+    correct: "c",
+  },
+  {
+    question: "Which one is king of the jungle?",
+    a: "Lion",
+    b: "Tiger",
+    c: "Donkey",
+    d: "Monkey",
+    correct: "a",
+  },
+  {
+    question: "What is the most saled phone in 2021?",
+    a: "Iphone 13 promax",
+    b: "S21 ultra",
+    c: "Nokia 1100",
+    d: "none",
+    correct: "a",
+  }
 ];
 
 const questionPlace = document.getElementById("question");
